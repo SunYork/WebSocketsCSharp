@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{711FA0F5-0CAE-4EB4-9F02-FDF6A57FF397}"
 EndProject
@@ -9,11 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{301956C3-E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8E82ECB7-70EC-44BC-AB02-311BEF809F14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoClient", "demo\EchoClient\EchoClient.csproj", "{E9CA850D-C175-4719-9899-5C7AE7FC71A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EchoClient", "demo\EchoClient\EchoClient.csproj", "{E9CA850D-C175-4719-9899-5C7AE7FC71A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoServer", "demo\EchoServer\EchoServer.csproj", "{32BDCDA5-C88F-457E-8A85-3374F5EE1734}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EchoServer", "demo\EchoServer\EchoServer.csproj", "{32BDCDA5-C88F-457E-8A85-3374F5EE1734}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sino.WebSockets.Server", "src\Sino.WebSockets.Server\Sino.WebSockets.Server.csproj", "{08F73170-135B-4A57-9597-FA75BE07EC4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sino.WebSockets.Server", "src\Sino.WebSockets.Server\Sino.WebSockets.Server.csproj", "{08F73170-135B-4A57-9597-FA75BE07EC4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".global", ".global", "{1B46147B-DCBB-4D11-970D-9FCA61C3AB90}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		ReadMe.md = ReadMe.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
