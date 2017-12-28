@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{711FA0F5-0CAE-4EB4-9F02-FDF6A57FF397}"
 EndProject
@@ -21,7 +21,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".global", ".global", "{1B46
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "test\XUnitTest\XUnitTest.csproj", "{3926BF76-339D-4E1D-81E8-076B5DBF8C42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest", "test\XUnitTest\XUnitTest.csproj", "{3926BF76-339D-4E1D-81E8-076B5DBF8C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sino.WebSockets.Core", "src\Sino.WebSockets.Core\Sino.WebSockets.Core.csproj", "{435042A1-6BE3-48D1-BB80-C67B92161265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sino.WebSockets.Client", "src\Sino.WebSockets.Client\Sino.WebSockets.Client.csproj", "{20303582-3709-4391-9D45-0FD2621CCA0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{3926BF76-339D-4E1D-81E8-076B5DBF8C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3926BF76-339D-4E1D-81E8-076B5DBF8C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3926BF76-339D-4E1D-81E8-076B5DBF8C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{435042A1-6BE3-48D1-BB80-C67B92161265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435042A1-6BE3-48D1-BB80-C67B92161265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435042A1-6BE3-48D1-BB80-C67B92161265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435042A1-6BE3-48D1-BB80-C67B92161265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20303582-3709-4391-9D45-0FD2621CCA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20303582-3709-4391-9D45-0FD2621CCA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20303582-3709-4391-9D45-0FD2621CCA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20303582-3709-4391-9D45-0FD2621CCA0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +66,8 @@ Global
 		{32BDCDA5-C88F-457E-8A85-3374F5EE1734} = {301956C3-EB43-41AC-ADD4-AB380D90ABCC}
 		{08F73170-135B-4A57-9597-FA75BE07EC4A} = {711FA0F5-0CAE-4EB4-9F02-FDF6A57FF397}
 		{3926BF76-339D-4E1D-81E8-076B5DBF8C42} = {8E82ECB7-70EC-44BC-AB02-311BEF809F14}
+		{435042A1-6BE3-48D1-BB80-C67B92161265} = {711FA0F5-0CAE-4EB4-9F02-FDF6A57FF397}
+		{20303582-3709-4391-9D45-0FD2621CCA0C} = {711FA0F5-0CAE-4EB4-9F02-FDF6A57FF397}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {597A0D47-95A3-4AA0-8A21-14C3856E0237}

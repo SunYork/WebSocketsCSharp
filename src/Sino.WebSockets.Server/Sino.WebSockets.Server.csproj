@@ -9,4 +9,13 @@
     <PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Consumer\" />
+    <Folder Include="Producer\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sino.WebSockets.Core\Sino.WebSockets.Core.csproj" />
+  </ItemGroup>
+
 </Project>
