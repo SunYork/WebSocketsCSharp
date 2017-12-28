@@ -18,7 +18,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".global", ".global", "{1B46147B-DCBB-4D11-970D-9FCA61C3AB90}"
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
-		ReadMe.md = ReadMe.md
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "test\XUnitTest\XUnitTest.csproj", "{3926BF76-339D-4E1D-81E8-076B5DBF8C42}"
