@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".global", ".global", "{1B46
 		ReadMe.md = ReadMe.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "test\XUnitTest\XUnitTest.csproj", "{3926BF76-339D-4E1D-81E8-076B5DBF8C42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{08F73170-135B-4A57-9597-FA75BE07EC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08F73170-135B-4A57-9597-FA75BE07EC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08F73170-135B-4A57-9597-FA75BE07EC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3926BF76-339D-4E1D-81E8-076B5DBF8C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3926BF76-339D-4E1D-81E8-076B5DBF8C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3926BF76-339D-4E1D-81E8-076B5DBF8C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3926BF76-339D-4E1D-81E8-076B5DBF8C42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{E9CA850D-C175-4719-9899-5C7AE7FC71A7} = {301956C3-EB43-41AC-ADD4-AB380D90ABCC}
 		{32BDCDA5-C88F-457E-8A85-3374F5EE1734} = {301956C3-EB43-41AC-ADD4-AB380D90ABCC}
 		{08F73170-135B-4A57-9597-FA75BE07EC4A} = {711FA0F5-0CAE-4EB4-9F02-FDF6A57FF397}
+		{3926BF76-339D-4E1D-81E8-076B5DBF8C42} = {8E82ECB7-70EC-44BC-AB02-311BEF809F14}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {597A0D47-95A3-4AA0-8A21-14C3856E0237}
