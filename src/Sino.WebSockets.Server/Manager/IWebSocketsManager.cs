@@ -49,7 +49,7 @@ namespace Sino.WebSockets.Server
         /// <summary>
         /// 查询当前保存的WS对象
         /// </summary>
-        /// <param name="instanceId">实力编号，填写则表示查询指定实例上存在的数量</param>
+        /// <param name="instanceId">实例编号，填写则表示查询指定实例上存在的数量</param>
         /// <returns>总共WS的数量</returns>
         int Count(int instanceId = -1);
     }
