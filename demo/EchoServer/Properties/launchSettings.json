@@ -7,14 +7,12 @@
       "sslPort": 0
     }
   },
+  "profiles": {
     "EchoServer": {
       "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "http://localhost:24535/"
+      }
     }
   }
 }
