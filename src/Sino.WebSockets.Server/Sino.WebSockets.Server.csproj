@@ -5,13 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="2.0.0" />
+    <Compile Remove="Consumer\**" />
+    <Compile Remove="Producer\**" />
+    <EmbeddedResource Remove="Consumer\**" />
+    <EmbeddedResource Remove="Producer\**" />
+    <None Remove="Consumer\**" />
+    <None Remove="Producer\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Consumer\" />
-    <Folder Include="Producer\" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
